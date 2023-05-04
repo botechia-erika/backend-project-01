@@ -35,3 +35,7 @@ resolução e comentarios no exercicio
 
 NOTA SOBRE VOID
 /*O operador void é muitas vezes utilizado apenas para obter o valor primitivo undefined, geralmente usando "void(0)" (o que equivale a "void 0"). Nestes casos, a variável global undefined pode ser utilizado em vez (supondo que ele não tenha sido atribuído a um valor não-padrão).*/
+
+
+
+
