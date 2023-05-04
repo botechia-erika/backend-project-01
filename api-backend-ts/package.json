@@ -1,0 +1,28 @@
+{
+  "name": "api-backend-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./build/index.js",
+    "start-frota-1": "tsc && node ./build/tipando/index.js frota Fiat ",
+    "start-frota-2": "tsc && node ./build/tipando/index.js frota Chevrolet",
+    "start-frota-3": "tsc && node ./build/tipando/index.js frota Toyota ",
+    "start-frota-4": "tsc && node ./build/tipando/index.js frota  ",
+    "start-frota-0": "tsc && node ./build/tipando/index.js frota hyunday  ",
+    "start-ex-1": "tsc && node ./build/fixacao/exercicio1/index.js",
+    "start-ex-2": "tsc && node ./build/fixacao/exercicio2/index.js",
+    "start-ex-3": "tsc && node ./build/fixacao/exercicio3/index.js",
+    "projeto-3": "tsc && node ./build/projeto/exercicio3.js"
+  },
+  "keywords": ["backend with ts"],
+  "author": "botechia-erika <mendoncabotechia@proton.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.16.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
