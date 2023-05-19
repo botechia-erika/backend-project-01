@@ -1,4 +1,4 @@
-import { countries } from "./../data/countries.js";
+import { countries } from "../../data/countries.js";
 const query = process.argv[2]
 //npm run start brasil
 console.log(query)

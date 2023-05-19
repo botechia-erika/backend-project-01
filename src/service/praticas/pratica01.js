@@ -1,4 +1,4 @@
-import { countries } from "./../data/countries.js";
+import { countries } from "../../data/countries.js";
 
 /*exercicio 01 - procurar um pais na lista*/
 const query = process.argv[2]

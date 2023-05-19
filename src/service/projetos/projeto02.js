@@ -1,4 +1,4 @@
-import {loveData} from './../data/emojis.js'
+import {loveData} from '../../data/emojis.js'
 const pEmojis = () =>{return(Math.floor(Math.random() * (loveData.length) ));}
 
 

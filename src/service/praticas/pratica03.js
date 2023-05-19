@@ -1,4 +1,4 @@
-import { countries } from "./../data/countries.js";
+import { countries } from "../../data/countries.js";
 const nameAdd = process.argv[2]
 const codeAdd = process.argv[3]
 
