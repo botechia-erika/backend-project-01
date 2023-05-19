@@ -1,20 +1,21 @@
 import colors from 'colors';
-const log = (colors.green(process.argv[2]))
+const log1 = console.log(colors.green(process.argv[2]))
+const start = console.log(colors.blue('log'))
 const err = (colors.red('error 👿'))
+const a = 1
+const b = 2
+const b1A = (a, b)=> {
+    try {
+        (a + b === 3) ? (start) : (err)
+    } catch (err
 
 
-const stars=(colors.yellow('*************************************************************'))
-
-console.log(stars)
-console.log('start labcommerce p1')
-console.log(stars)
-
-const arg2 = process.argv[2]
-if(!arg2){
-    console.log(err + " argumento nao fornecido ")
-}else{
-
-
-console.log(`${log}` + "🍌")
+        ) {
+        const readError = (err) => JSON.stringify("valor: " + err.error + "\n")
+        console.log(readError())
+    }
 }
+
+
+console.log(b1A(a, b))
 

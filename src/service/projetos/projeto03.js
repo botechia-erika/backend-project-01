@@ -7,7 +7,20 @@ else if(num %2 ===0 ){
     }
 else if(num %2 ===1 ){
      console.log( num + " É ÍMPAR")
-     }
-else{
- console.log(num + 'nao e numero')
- }
+     }else if(
+         num === typeof  string ) {
+    console.log(num + 'escreveu alfa numerico')
+}
+ else if(num === "VorTeRix") {
+        console.log('npm run p2' + 22)
+
+}else if(num === "e3"){
+     num=== "e3"
+    const st = "npm run start"
+ cmdE2 = st + num +" "+ process.argvs[3]
+
+    console.log(cmdE2)
+}else{
+     console.log('error')
+}
+
